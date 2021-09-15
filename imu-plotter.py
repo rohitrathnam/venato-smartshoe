@@ -9,8 +9,8 @@ import numpy as np
 plt.style.use('ggplot')
 
 size = 100
-x_vec = np.linspace(0,1,size+1)[0:-1]
-y_vec = np.zeros(len(x_vec1))
+x_vec1 = np.linspace(0,1,size+1)[0:-1]
+y_vec1 = np.zeros(len(x_vec1))
 line1 = []
 x_vec2 = np.linspace(0,1,size+1)[0:-1]
 y_vec2 = np.zeros(len(x_vec2))
@@ -19,7 +19,7 @@ x_vec3 = np.linspace(0,1,size+1)[0:-1]
 y_vec3 = np.zeros(len(x_vec3))
 line3 = []
 
-def live_plotter(x_vec,y1_data,line,identifier='',pause_time=0.01):
+def live_plotter(x_vec,y1_data,line,identifier='',pause_time=0.001):
     if line==[]:
         # this is the call to matplotlib that allows dynamic plotting
         plt.ion()
@@ -33,15 +33,15 @@ def live_plotter(x_vec,y1_data,line,identifier='',pause_time=0.01):
         plt.show()
     
     # after the figure, axis, and line are created, we only need to update the y-data
-    line1.set_ydata(y1_data)
+    line.set_ydata(y1_data)
     # adjust limits if new data goes beyond bounds
-    if np.min(y1_data)<=line1.axes.get_ylim()[0] or np.max(y1_data)>=line1.axes.get_ylim()[1]:
+    if np.min(y1_data)<=line.axes.get_ylim()[0] or np.max(y1_data)>=line.axes.get_ylim()[1]:
         plt.ylim([np.min(y1_data)-np.std(y1_data),np.max(y1_data)+np.std(y1_data)])
     # this pauses the data so the figure/axis can catch up - the amount of pause can be altered above
     plt.pause(pause_time)
     
     # return line so we can update it again in the next iteration
-    return line1
+    return line
 
 # configure the serial connections (the parameters differs on the device you are connecting to)
 ser = serial.Serial(
@@ -61,15 +61,18 @@ while 1:
     data = data_raw[:-2].split('\t')
     res = [float(ele) for ele in data]
     print(res)
+
     y_vec1[-1] = res[0]
     line1 = live_plotter(x_vec1,y_vec1,line1)
-    y_vec = np.append(y_vec[1:],0.0)
-    y_vec2[-1] = res[0]
-    line1 = live_plotter(x_vec1,y_vec1,line1)
-    y_vec = np.append(y_vec[1:],0.0)
-    y_vec3[-1] = res[0]
-    line1 = live_plotter(x_vec1,y_vec1,line1)
-    y_vec = np.append(y_vec[1:],0.0)
+    y_vec1 = np.append(y_vec1[1:],0.0)
+
+    y_vec2[-1] = res[1]
+    line2 = live_plotter(x_vec2,y_vec2,line2)
+    y_vec2 = np.append(y_vec2[1:],0.0)
+
+    y_vec3[-1] = res[2]
+    line3 = live_plotter(x_vec3,y_vec3,line3)
+    y_vec3 = np.append(y_vec3[1:],0.0)
 
 
 
