@@ -18,14 +18,17 @@ HL2032 - smart shoe project
 **Single**, _clear_, `compelling` message that states why you are different and worth buying
 - Compatible with any shoe
 - Foot pressure distribution, stride duration, step duration, swing and stance duration, gait cadence, gait frequency, double support duration, velocity
+- Supports outdoor tracking
+- Low cost alternative
+- Product ecosystem - mobile / desktop / browser to visualise data
 
 ## Solution
 - Create a bluetooth enabled sole with contact force, flex sensors and IMU which can be slipped any shoe
-- Second top feature
-- Third top feature
+
 
 ## Channels
-- Path to the customer
+- Retailers (online/specialized stores/mainstream stores)
+- Physiotherapist
 - Social media
 - Point of sale
 
@@ -33,13 +36,14 @@ HL2032 - smart shoe project
 - Customer aquisition costs
 - Distribution costs
 - Hosting
-- People, ...
+- People
+- Parts
 
 ## Revenue-Stream
-- Revenue model 
-- Life time value
-- Revenue
-- Gross margin
+- Unit sales 
+- Subscription for personalised analytics
+- Strategic partnerships with training / rehab centres
+
 
 ## Key-Metrics
 - Sensitivity, accuracy, specificity, repeatability, reliability of measurements
@@ -49,5 +53,5 @@ HL2032 - smart shoe project
 - Another key activity to measure
 
 ## Unfair-advantage
-- Cant be easily...
-- ... copied and bought
+- New intellectual property
+- Currently no competition
