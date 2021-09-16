@@ -15,7 +15,7 @@ HL2032 - smart shoe project
 **Single**, _clear_, `compelling` message that states why you are different and worth buying
 
 ## Solution
-- First top feature
+- Create a bluetooth enabled sole with contact force, flex sensors and IMU which can be slipped any shoe
 - Second top feature
 - Third top feature
 
