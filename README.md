@@ -2,7 +2,7 @@
 HL2032 - smart shoe project
 
 ## Problem
-1. Top problem
+1. Conditioning coach: As a conditioning coach, I want to have deep analysis of foot pressure during exercises such as squats or deadlift.  Plus, I want to perform kinetic tests that requires Force plates and labs, anytime. maybe after a workout. Besides, jumping parameters, such as impact time, landing forces etc are really important in order to prevent injuries for me.
 1. Top problem
 1. Top problem
 
