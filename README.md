@@ -23,7 +23,7 @@ HL2032 - smart shoe project
 - Product ecosystem - mobile / desktop / browser to visualise data
 
 ## Solution
-- Create a bluetooth enabled sole with contact force, flex sensors and IMU which can be slipped any shoe
+- Create a bluetooth enabled sole with contact force, gyros and IMU which can be slipped any shoe
 
 
 ## Channels
