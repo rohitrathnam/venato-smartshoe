@@ -55,3 +55,5 @@ HL2032 - smart shoe project
 ## Unfair-advantage
 - New intellectual property
 - Currently no competition
+
+- new stuff
