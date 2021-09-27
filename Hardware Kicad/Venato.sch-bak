@@ -1,0 +1,435 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pspice:0 #GND?
+U 1 1 615283C5
+P 2050 4950
+F 0 "#GND?" H 2050 4850 50  0001 C CNN
+F 1 "0" H 2050 5039 50  0000 C CNN
+F 2 "" H 2050 4950 50  0001 C CNN
+F 3 "~" H 2050 4950 50  0001 C CNN
+	1    2050 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2850 2650 2850
+$Comp
+L Amplifier_Operational:MCP6002-xMC U?
+U 1 1 61530CA8
+P 2950 2200
+F 0 "U?" H 2950 1833 50  0000 C CNN
+F 1 "MCP6002-xMC" H 2950 1924 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 2950 2200 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2950 2200 50  0001 C CNN
+	1    2950 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6002-xMC U?
+U 1 1 61531804
+P 4300 2200
+F 0 "U?" H 4300 1833 50  0000 C CNN
+F 1 "MCP6002-xMC" H 4300 1924 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 4300 2200 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4300 2200 50  0001 C CNN
+	1    4300 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6002-xMC U?
+U 1 1 615323F4
+P 6250 2200
+F 0 "U?" H 6250 1833 50  0000 C CNN
+F 1 "MCP6002-xMC" H 6250 1924 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 6250 2200 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6250 2200 50  0001 C CNN
+	1    6250 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6002-xMC U?
+U 2 1 61533082
+P 2850 4300
+F 0 "U?" H 2850 3933 50  0000 C CNN
+F 1 "MCP6002-xMC" H 2850 4024 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 2850 4300 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2850 4300 50  0001 C CNN
+	2    2850 4300
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6002-xMC U?
+U 2 1 61533893
+P 4450 4250
+F 0 "U?" H 4450 3883 50  0000 C CNN
+F 1 "MCP6002-xMC" H 4450 3974 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 4450 4250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4450 4250 50  0001 C CNN
+	2    4450 4250
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6002-xMC U?
+U 2 1 61534082
+P 6400 4300
+F 0 "U?" H 6400 3933 50  0000 C CNN
+F 1 "MCP6002-xMC" H 6400 4024 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 6400 4300 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6400 4300 50  0001 C CNN
+	2    6400 4300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2550 4400 2550 4700
+Connection ~ 2550 4700
+Wire Wire Line
+	2550 4700 4150 4700
+Wire Wire Line
+	4150 4350 4150 4700
+Connection ~ 4150 4700
+Wire Wire Line
+	4150 4700 6100 4700
+Wire Wire Line
+	6100 4400 6100 4700
+Wire Wire Line
+	2650 2300 2650 2850
+Connection ~ 2650 2850
+Wire Wire Line
+	2650 2850 4000 2850
+Wire Wire Line
+	4000 2300 4000 2850
+Connection ~ 4000 2850
+Wire Wire Line
+	4000 2850 5950 2850
+Wire Wire Line
+	5950 2300 5950 2850
+$Comp
+L Device:R R?
+U 1 1 61535978
+P 2950 1600
+F 0 "R?" V 2743 1600 50  0000 C CNN
+F 1 "1000" V 2834 1600 50  0000 C CNN
+F 2 "" V 2880 1600 50  0001 C CNN
+F 3 "~" H 2950 1600 50  0001 C CNN
+	1    2950 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615366D8
+P 4250 1550
+F 0 "R?" V 4043 1550 50  0000 C CNN
+F 1 "1000" V 4134 1550 50  0000 C CNN
+F 2 "" V 4180 1550 50  0001 C CNN
+F 3 "~" H 4250 1550 50  0001 C CNN
+	1    4250 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61536957
+P 6150 1550
+F 0 "R?" V 5943 1550 50  0000 C CNN
+F 1 "1000" V 6034 1550 50  0000 C CNN
+F 2 "" V 6080 1550 50  0001 C CNN
+F 3 "~" H 6150 1550 50  0001 C CNN
+	1    6150 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615370B9
+P 2800 3900
+F 0 "R?" V 2593 3900 50  0000 C CNN
+F 1 "1000" V 2684 3900 50  0000 C CNN
+F 2 "" V 2730 3900 50  0001 C CNN
+F 3 "~" H 2800 3900 50  0001 C CNN
+	1    2800 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 615376AF
+P 4450 3750
+F 0 "R?" V 4243 3750 50  0000 C CNN
+F 1 "1000" V 4334 3750 50  0000 C CNN
+F 2 "" V 4380 3750 50  0001 C CNN
+F 3 "~" H 4450 3750 50  0001 C CNN
+	1    4450 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61537BBB
+P 6350 3850
+F 0 "R?" V 6143 3850 50  0000 C CNN
+F 1 "R" V 6234 3850 50  0000 C CNN
+F 2 "" V 6280 3850 50  0001 C CNN
+F 3 "~" H 6350 3850 50  0001 C CNN
+	1    6350 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 2850 2050 4700
+Wire Wire Line
+	2050 4700 2550 4700
+Connection ~ 2050 4700
+Wire Wire Line
+	2050 4700 2050 4950
+$Comp
+L Device:C C?
+U 1 1 6153E2B9
+P 2850 3550
+F 0 "C?" V 2598 3550 50  0000 C CNN
+F 1 "47pF" V 2689 3550 50  0000 C CNN
+F 2 "" H 2888 3400 50  0001 C CNN
+F 3 "~" H 2850 3550 50  0001 C CNN
+	1    2850 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6153E9AD
+P 4450 3300
+F 0 "C?" V 4198 3300 50  0000 C CNN
+F 1 "47pF" V 4289 3300 50  0000 C CNN
+F 2 "" H 4488 3150 50  0001 C CNN
+F 3 "~" H 4450 3300 50  0001 C CNN
+	1    4450 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6153EEC9
+P 6350 3500
+F 0 "C?" V 6098 3500 50  0000 C CNN
+F 1 "47pF" V 6189 3500 50  0000 C CNN
+F 2 "" H 6388 3350 50  0001 C CNN
+F 3 "~" H 6350 3500 50  0001 C CNN
+	1    6350 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6153F382
+P 6150 1200
+F 0 "C?" V 5898 1200 50  0000 C CNN
+F 1 "47pF" V 5989 1200 50  0000 C CNN
+F 2 "" H 6188 1050 50  0001 C CNN
+F 3 "~" H 6150 1200 50  0001 C CNN
+	1    6150 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6153F821
+P 4250 1200
+F 0 "C?" V 3998 1200 50  0000 C CNN
+F 1 "47pF" V 4089 1200 50  0000 C CNN
+F 2 "" H 4288 1050 50  0001 C CNN
+F 3 "~" H 4250 1200 50  0001 C CNN
+	1    4250 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6153FB62
+P 2950 1250
+F 0 "C?" V 2698 1250 50  0000 C CNN
+F 1 "47pF" V 2789 1250 50  0000 C CNN
+F 2 "" H 2988 1100 50  0001 C CNN
+F 3 "~" H 2950 1250 50  0001 C CNN
+	1    2950 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 2100 2650 1600
+Wire Wire Line
+	2650 1600 2800 1600
+Wire Wire Line
+	3100 1600 3250 1600
+Wire Wire Line
+	3250 1600 3250 2200
+Wire Wire Line
+	2650 1600 2650 1250
+Wire Wire Line
+	2650 1250 2800 1250
+Connection ~ 2650 1600
+Wire Wire Line
+	3100 1250 3250 1250
+Wire Wire Line
+	3250 1250 3250 1600
+Connection ~ 3250 1600
+Wire Wire Line
+	4100 1200 4000 1200
+Wire Wire Line
+	4000 1200 4000 1550
+Wire Wire Line
+	4100 1550 4000 1550
+Connection ~ 4000 1550
+Wire Wire Line
+	4000 1550 4000 2100
+Wire Wire Line
+	4400 1200 4600 1200
+Wire Wire Line
+	4600 1200 4600 1550
+Wire Wire Line
+	4400 1550 4600 1550
+Connection ~ 4600 1550
+Wire Wire Line
+	4600 1550 4600 2200
+Wire Wire Line
+	6000 1200 5950 1200
+Wire Wire Line
+	5950 1200 5950 1550
+Wire Wire Line
+	6000 1550 5950 1550
+Connection ~ 5950 1550
+Wire Wire Line
+	5950 1550 5950 2100
+Wire Wire Line
+	6300 1200 6550 1200
+Wire Wire Line
+	6550 1200 6550 1550
+Wire Wire Line
+	6300 1550 6550 1550
+Connection ~ 6550 1550
+Wire Wire Line
+	6550 1550 6550 2200
+Wire Wire Line
+	6200 3500 6100 3500
+Wire Wire Line
+	6100 3500 6100 3850
+Wire Wire Line
+	6200 3850 6100 3850
+Connection ~ 6100 3850
+Wire Wire Line
+	6100 3850 6100 4200
+Wire Wire Line
+	6500 3500 6700 3500
+Wire Wire Line
+	6700 3500 6700 3850
+Wire Wire Line
+	6500 3850 6700 3850
+Connection ~ 6700 3850
+Wire Wire Line
+	6700 3850 6700 4300
+Wire Wire Line
+	2900 3550 3000 3550
+Wire Wire Line
+	3150 3550 3150 3900
+Wire Wire Line
+	2950 3900 3150 3900
+Connection ~ 3150 3900
+Wire Wire Line
+	3150 3900 3150 4300
+Wire Wire Line
+	2550 3550 2550 3900
+Wire Wire Line
+	2650 3900 2550 3900
+Connection ~ 2550 3900
+Wire Wire Line
+	2550 3900 2550 4200
+Connection ~ 3000 3550
+Wire Wire Line
+	3000 3550 3150 3550
+Wire Wire Line
+	2550 3550 2700 3550
+Wire Wire Line
+	4300 3750 4150 3750
+Connection ~ 4150 3750
+Wire Wire Line
+	4600 3750 4750 3750
+Connection ~ 4750 3750
+Wire Wire Line
+	4750 3750 4750 4250
+Wire Wire Line
+	4150 3750 4150 4150
+Wire Wire Line
+	4300 3300 4150 3300
+Wire Wire Line
+	4600 3300 4750 3300
+Wire Wire Line
+	4750 3300 4750 3750
+Wire Wire Line
+	4150 3300 4150 3750
+$Comp
+L Amplifier_Operational:MCP6002-xMC U?
+U 3 1 61558409
+P 7850 900
+F 0 "U?" H 7808 946 50  0000 L CNN
+F 1 "MCP6002-xMC" H 7808 855 50  0000 L CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 7850 900 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7850 900 50  0001 C CNN
+	3    7850 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6002-xMC U?
+U 3 1 61558880
+P 7850 1750
+F 0 "U?" H 7808 1796 50  0000 L CNN
+F 1 "MCP6002-xMC" H 7808 1705 50  0000 L CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 7850 1750 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7850 1750 50  0001 C CNN
+	3    7850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6002-xMC U?
+U 3 1 61559468
+P 9100 900
+F 0 "U?" H 9058 946 50  0000 L CNN
+F 1 "MCP6002-xMC" H 9058 855 50  0000 L CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 9100 900 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9100 900 50  0001 C CNN
+	3    9100 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6002-xMC U?
+U 3 1 61559F48
+P 9100 1800
+F 0 "U?" H 9058 1846 50  0000 L CNN
+F 1 "MCP6002-xMC" H 9058 1755 50  0000 L CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 9100 1800 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9100 1800 50  0001 C CNN
+	3    9100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6002-xMC U?
+U 3 1 6155A2F9
+P 10350 850
+F 0 "U?" H 10308 896 50  0000 L CNN
+F 1 "MCP6002-xMC" H 10308 805 50  0000 L CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 10350 850 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 10350 850 50  0001 C CNN
+	3    10350 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:MCP6002-xMC U?
+U 3 1 6155A810
+P 10350 1750
+F 0 "U?" H 10308 1796 50  0000 L CNN
+F 1 "MCP6002-xMC" H 10308 1705 50  0000 L CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 10350 1750 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 10350 1750 50  0001 C CNN
+	3    10350 1750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
