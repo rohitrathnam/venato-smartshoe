@@ -14,422 +14,732 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pspice:0 #GND?
-U 1 1 615283C5
-P 2000 4400
-F 0 "#GND?" H 2000 4300 50  0001 C CNN
-F 1 "0" H 2000 4489 50  0000 C CNN
-F 2 "" H 2000 4400 50  0001 C CNN
-F 3 "~" H 2000 4400 50  0001 C CNN
-	1    2000 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 2300 2600 2300
-$Comp
-L Amplifier_Operational:MCP6002-xMC U1
+L Amplifier_Operational:MCP6002-xP U2
 U 1 1 61530CA8
-P 2900 1650
-F 0 "U1" H 2900 1283 50  0000 C CNN
-F 1 "MCP6002-xMC" H 2900 1374 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 2900 1650 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2900 1650 50  0001 C CNN
-	1    2900 1650
+P 1900 3850
+F 0 "U2" H 1900 3483 50  0000 C CNN
+F 1 "MCP6002-xP" H 1900 3574 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 1900 3850 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1900 3850 50  0001 C CNN
+	1    1900 3850
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6002-xMC U2
-U 1 1 61531804
-P 4250 1650
-F 0 "U2" H 4250 1283 50  0000 C CNN
-F 1 "MCP6002-xMC" H 4250 1374 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 4250 1650 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4250 1650 50  0001 C CNN
-	1    4250 1650
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:MCP6002-xMC U3
-U 1 1 615323F4
-P 6200 1650
-F 0 "U3" H 6200 1283 50  0000 C CNN
-F 1 "MCP6002-xMC" H 6200 1374 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 6200 1650 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6200 1650 50  0001 C CNN
-	1    6200 1650
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:MCP6002-xMC U4
-U 2 1 61533082
-P 2800 3750
-F 0 "U4" H 2800 3383 50  0000 C CNN
-F 1 "MCP6002-xMC" H 2800 3474 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 2800 3750 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2800 3750 50  0001 C CNN
-	2    2800 3750
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:MCP6002-xMC U5
-U 2 1 61533893
-P 4400 3700
-F 0 "U5" H 4400 3333 50  0000 C CNN
-F 1 "MCP6002-xMC" H 4400 3424 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 4400 3700 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4400 3700 50  0001 C CNN
-	2    4400 3700
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:MCP6002-xMC U6
-U 2 1 61534082
-P 6350 3750
-F 0 "U6" H 6350 3383 50  0000 C CNN
-F 1 "MCP6002-xMC" H 6350 3474 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 6350 3750 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6350 3750 50  0001 C CNN
-	2    6350 3750
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	2500 3850 2500 4150
-Connection ~ 2500 4150
-Wire Wire Line
-	2500 4150 4100 4150
-Wire Wire Line
-	4100 3800 4100 4150
-Connection ~ 4100 4150
-Wire Wire Line
-	4100 4150 6050 4150
-Wire Wire Line
-	6050 3850 6050 4150
-Wire Wire Line
-	2600 1750 2600 2300
-Connection ~ 2600 2300
-Wire Wire Line
-	2600 2300 3950 2300
-Wire Wire Line
-	3950 1750 3950 2300
-Connection ~ 3950 2300
-Wire Wire Line
-	3950 2300 5900 2300
-Wire Wire Line
-	5900 1750 5900 2300
-$Comp
-L Device:R R?
+L Device:R R1
 U 1 1 61535978
-P 2900 1050
-F 0 "R?" V 2693 1050 50  0000 C CNN
-F 1 "1000" V 2784 1050 50  0000 C CNN
-F 2 "" V 2830 1050 50  0001 C CNN
-F 3 "~" H 2900 1050 50  0001 C CNN
-	1    2900 1050
+P 1900 3350
+F 0 "R1" V 1693 3350 50  0000 C CNN
+F 1 "1.5k" V 1784 3350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 3350 50  0001 C CNN
+F 3 "~" H 1900 3350 50  0001 C CNN
+	1    1900 3350
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 615366D8
-P 4200 1000
-F 0 "R?" V 3993 1000 50  0000 C CNN
-F 1 "1000" V 4084 1000 50  0000 C CNN
-F 2 "" V 4130 1000 50  0001 C CNN
-F 3 "~" H 4200 1000 50  0001 C CNN
-	1    4200 1000
+P 1900 4950
+F 0 "R2" V 1693 4950 50  0000 C CNN
+F 1 "1.5k" V 1784 4950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 4950 50  0001 C CNN
+F 3 "~" H 1900 4950 50  0001 C CNN
+	1    1900 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 3750 1600 3350
+Wire Wire Line
+	1600 3350 1750 3350
+Wire Wire Line
+	2050 3350 2200 3350
+Wire Wire Line
+	2200 3350 2200 3850
+Wire Wire Line
+	1750 4950 1600 4950
+Wire Wire Line
+	1600 4950 1600 5350
+Wire Wire Line
+	2050 4950 2200 4950
+Wire Wire Line
+	2200 4950 2200 5450
+Wire Wire Line
+	4500 3150 4500 3700
+Wire Wire Line
+	3900 3150 3900 3600
+Wire Wire Line
+	3900 3150 4500 3150
+$Comp
+L Device:R R6
+U 1 1 615D068F
+P 3450 3500
+F 0 "R6" H 3520 3546 50  0000 L CNN
+F 1 "42k" H 3520 3455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3380 3500 50  0001 C CNN
+F 3 "~" H 3450 3500 50  0001 C CNN
+	1    3450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 615D0A4B
+P 3450 4200
+F 0 "R7" H 3520 4246 50  0000 L CNN
+F 1 "9k" H 3520 4155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3380 4200 50  0001 C CNN
+F 3 "~" H 3450 4200 50  0001 C CNN
+	1    3450 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4050 3450 3800
+Wire Wire Line
+	3900 3800 3450 3800
+Connection ~ 3450 3800
+Wire Wire Line
+	3450 3800 3450 3650
+$Comp
+L power:GND #PWR010
+U 1 1 615D2DA5
+P 3450 4500
+F 0 "#PWR010" H 3450 4250 50  0001 C CNN
+F 1 "GND" H 3455 4327 50  0000 C CNN
+F 2 "" H 3450 4500 50  0001 C CNN
+F 3 "" H 3450 4500 50  0001 C CNN
+	1    3450 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4500 3450 4350
+$Comp
+L power:+3.3VA #PWR09
+U 1 1 615D362E
+P 3450 3100
+F 0 "#PWR09" H 3450 2950 50  0001 C CNN
+F 1 "+3.3VA" H 3465 3273 50  0000 C CNN
+F 2 "" H 3450 3100 50  0001 C CNN
+F 3 "" H 3450 3100 50  0001 C CNN
+	1    3450 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3350 3450 3100
+Wire Wire Line
+	4600 1400 4600 1300
+Wire Wire Line
+	4600 1300 5550 1300
+Wire Wire Line
+	6400 1300 6400 1400
+Wire Wire Line
+	5550 1400 5550 1300
+Connection ~ 5550 1300
+Wire Wire Line
+	5550 1300 6400 1300
+Wire Wire Line
+	4600 2000 4600 2100
+Wire Wire Line
+	4600 2100 5550 2100
+Wire Wire Line
+	6400 2100 6400 2000
+Wire Wire Line
+	5550 2100 5550 2000
+Connection ~ 5550 2100
+Wire Wire Line
+	5550 2100 6400 2100
+$Comp
+L power:+3.3VA #PWR011
+U 1 1 615ED5EE
+P 5550 1150
+F 0 "#PWR011" H 5550 1000 50  0001 C CNN
+F 1 "+3.3VA" H 5565 1323 50  0000 C CNN
+F 2 "" H 5550 1150 50  0001 C CNN
+F 3 "" H 5550 1150 50  0001 C CNN
+	1    5550 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1150 5550 1300
+$Comp
+L power:GND #PWR012
+U 1 1 615EE4F3
+P 5550 2250
+F 0 "#PWR012" H 5550 2000 50  0001 C CNN
+F 1 "GND" H 5555 2077 50  0000 C CNN
+F 2 "" H 5550 2250 50  0001 C CNN
+F 3 "" H 5550 2250 50  0001 C CNN
+	1    5550 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2250 5550 2100
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 6155E93A
+P 1200 3550
+F 0 "J1" V 1308 3594 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 1353 3594 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1200 3550 50  0001 C CNN
+F 3 "~" H 1200 3550 50  0001 C CNN
+	1    1200 3550
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
-U 1 1 61536957
-P 6100 1000
-F 0 "R?" V 5893 1000 50  0000 C CNN
-F 1 "1000" V 5984 1000 50  0000 C CNN
-F 2 "" V 6030 1000 50  0001 C CNN
-F 3 "~" H 6100 1000 50  0001 C CNN
-	1    6100 1000
+L Connector:Conn_01x02_Male J2
+U 1 1 61561776
+P 1200 5150
+F 0 "J2" V 1308 5194 50  0000 L CNN
+F 1 "Conn_01x02_Male" H 1308 5240 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1200 5150 50  0001 C CNN
+F 3 "~" H 1200 5150 50  0001 C CNN
+	1    1200 5150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
-U 1 1 615370B9
-P 2750 3350
-F 0 "R?" V 2543 3350 50  0000 C CNN
-F 1 "1000" V 2634 3350 50  0000 C CNN
-F 2 "" V 2680 3350 50  0001 C CNN
-F 3 "~" H 2750 3350 50  0001 C CNN
-	1    2750 3350
+L Connector:Conn_01x02_Male J4
+U 1 1 61562FD8
+P 3450 6550
+F 0 "J4" V 3558 6594 50  0000 L CNN
+F 1 "Conn_01x02_Male" H 3558 6640 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3450 6550 50  0001 C CNN
+F 3 "~" H 3450 6550 50  0001 C CNN
+	1    3450 6550
 	0    1    1    0   
 $EndComp
+Connection ~ 1600 3750
 $Comp
-L Device:R R?
+L power:GND #PWR02
+U 1 1 61585BA9
+P 1100 3950
+F 0 "#PWR02" H 1100 3700 50  0001 C CNN
+F 1 "GND" H 1105 3777 50  0000 C CNN
+F 2 "" H 1100 3950 50  0001 C CNN
+F 3 "" H 1100 3950 50  0001 C CNN
+	1    1100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 61585EDE
+P 1100 5550
+F 0 "#PWR03" H 1100 5300 50  0001 C CNN
+F 1 "GND" H 1105 5377 50  0000 C CNN
+F 2 "" H 1100 5550 50  0001 C CNN
+F 3 "" H 1100 5550 50  0001 C CNN
+	1    1100 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 6750 3850 6750
+Text GLabel 4700 3700 2    50   Input ~ 0
+VGND
+Wire Wire Line
+	4700 3700 4500 3700
+$Comp
+L power:GND #PWR07
+U 1 1 615EB642
+P 3350 6950
+F 0 "#PWR07" H 3350 6700 50  0001 C CNN
+F 1 "GND" H 3355 6777 50  0000 C CNN
+F 2 "" H 3350 6950 50  0001 C CNN
+F 3 "" H 3350 6950 50  0001 C CNN
+	1    3350 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 6950 3350 6750
+Wire Wire Line
+	1100 5350 1100 5550
+Wire Wire Line
+	1100 3750 1100 3950
+Wire Wire Line
+	1200 3750 1600 3750
+Text GLabel 1500 3950 0    50   Input ~ 0
+VGND
+Text GLabel 1500 5550 0    50   Input ~ 0
+VGND
+Wire Wire Line
+	1200 5350 1600 5350
+Wire Wire Line
+	1500 5550 1600 5550
+Wire Wire Line
+	1500 3950 1600 3950
+Text GLabel 3750 6950 0    50   Input ~ 0
+VGND
+Wire Wire Line
+	3850 6950 3750 6950
+Text GLabel 2350 3850 2    50   Input ~ 0
+SENSE1
+Wire Wire Line
+	2350 3850 2200 3850
+Connection ~ 2200 3850
+Text GLabel 2350 5450 2    50   Input ~ 0
+SENSE2
+Text GLabel 4650 6850 2    50   Input ~ 0
+SENSE5
+Wire Wire Line
+	4450 6850 4650 6850
+Wire Wire Line
+	2200 5450 2350 5450
+$Comp
+L Device:C C4
+U 1 1 616AB4D5
+P 4000 1700
+F 0 "C4" H 4115 1746 50  0000 L CNN
+F 1 "1u" H 4115 1655 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4038 1550 50  0001 C CNN
+F 3 "~" H 4000 1700 50  0001 C CNN
+	1    4000 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1550 4000 1300
+Wire Wire Line
+	4000 1300 4600 1300
+Connection ~ 4600 1300
+Wire Wire Line
+	4000 1850 4000 2100
+Wire Wire Line
+	4000 2100 4600 2100
+Connection ~ 4600 2100
+Connection ~ 4000 1300
+Connection ~ 4000 2100
+$Comp
+L Device:C C3
+U 1 1 616BC609
+P 3450 1700
+F 0 "C3" H 3565 1746 50  0000 L CNN
+F 1 "0.1u" H 3565 1655 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3488 1550 50  0001 C CNN
+F 3 "~" H 3450 1700 50  0001 C CNN
+	1    3450 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1850 3450 2100
+Wire Wire Line
+	3450 2100 4000 2100
+Wire Wire Line
+	3450 1550 3450 1300
+Wire Wire Line
+	3450 1300 4000 1300
+$Comp
+L Regulator_Linear:LM317_TO-220 U1
+U 1 1 61745AE8
+P 1650 1250
+F 0 "U1" H 1650 1492 50  0000 C CNN
+F 1 "LM317_TO-220" H 1650 1401 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1650 1500 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 1650 1250 50  0001 C CNN
+	1    1650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 61746EC2
+P 2200 1450
+F 0 "R4" H 2270 1496 50  0000 L CNN
+F 1 "270" H 2270 1405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2130 1450 50  0001 C CNN
+F 3 "~" H 2200 1450 50  0001 C CNN
+	1    2200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 61747723
+P 2200 2000
+F 0 "R5" H 2270 2046 50  0000 L CNN
+F 1 "180" H 2270 1955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2130 2000 50  0001 C CNN
+F 3 "~" H 2200 2000 50  0001 C CNN
+	1    2200 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1550 1650 1700
+Wire Wire Line
+	1650 1700 2200 1700
+Wire Wire Line
+	2200 1300 2200 1250
+Wire Wire Line
+	2200 1250 1950 1250
+Wire Wire Line
+	2200 1700 2200 1600
+Wire Wire Line
+	2200 1850 2200 1700
+Connection ~ 2200 1700
+$Comp
+L power:GND #PWR05
+U 1 1 61757426
+P 2200 2250
+F 0 "#PWR05" H 2200 2000 50  0001 C CNN
+F 1 "GND" H 2205 2077 50  0000 C CNN
+F 2 "" H 2200 2250 50  0001 C CNN
+F 3 "" H 2200 2250 50  0001 C CNN
+	1    2200 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2250 2200 2200
+$Comp
+L power:+5V #PWR01
+U 1 1 6175AFCF
+P 1050 1200
+F 0 "#PWR01" H 1050 1050 50  0001 C CNN
+F 1 "+5V" H 1065 1373 50  0000 C CNN
+F 2 "" H 1050 1200 50  0001 C CNN
+F 3 "" H 1050 1200 50  0001 C CNN
+	1    1050 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1250 1350 1250
+Wire Wire Line
+	1050 1250 1050 1200
+$Comp
+L power:+3.3VA #PWR06
+U 1 1 6177534C
+P 2600 1250
+F 0 "#PWR06" H 2600 1100 50  0001 C CNN
+F 1 "+3.3VA" H 2615 1423 50  0000 C CNN
+F 2 "" H 2600 1250 50  0001 C CNN
+F 3 "" H 2600 1250 50  0001 C CNN
+	1    2600 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1250 2200 1250
+Connection ~ 2200 1250
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 617A8BCB
+P 8450 1600
+F 0 "J6" H 8558 1689 50  0000 C CNN
+F 1 "Conn_01x02_Male" V 8603 1644 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8450 1600 50  0001 C CNN
+F 3 "~" H 8450 1600 50  0001 C CNN
+	1    8450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR013
+U 1 1 617AB64A
+P 8800 1500
+F 0 "#PWR013" H 8800 1350 50  0001 C CNN
+F 1 "+5V" H 8815 1673 50  0000 C CNN
+F 2 "" H 8800 1500 50  0001 C CNN
+F 3 "" H 8800 1500 50  0001 C CNN
+	1    8800 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 1600 8800 1600
+Wire Wire Line
+	8800 1600 8800 1500
+$Comp
+L power:GND #PWR014
+U 1 1 617B6879
+P 8800 1800
+F 0 "#PWR014" H 8800 1550 50  0001 C CNN
+F 1 "GND" H 8805 1627 50  0000 C CNN
+F 2 "" H 8800 1800 50  0001 C CNN
+F 3 "" H 8800 1800 50  0001 C CNN
+	1    8800 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 1800 8800 1700
+Wire Wire Line
+	8800 1700 8650 1700
+$Comp
+L Connector:Conn_01x05_Male J7
+U 1 1 617C1B55
+P 9750 1650
+F 0 "J7" H 9858 1939 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 9858 1940 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9750 1650 50  0001 C CNN
+F 3 "~" H 9750 1650 50  0001 C CNN
+	1    9750 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 10100 1550 2    50   Input ~ 0
+SENSE1
+Text GLabel 10100 1650 2    50   Input ~ 0
+SENSE4
+Text GLabel 10100 1750 2    50   Input ~ 0
+SENSE5
+Wire Wire Line
+	9950 1450 10100 1450
+Wire Wire Line
+	9950 1550 10100 1550
+Wire Wire Line
+	10100 1650 9950 1650
+Wire Wire Line
+	9950 1750 10100 1750
+Wire Wire Line
+	10100 1850 9950 1850
+Wire Wire Line
+	4650 5500 4500 5500
+Text GLabel 4650 5500 2    50   Input ~ 0
+SENSE3
+Wire Wire Line
+	3800 5600 3900 5600
+Text GLabel 3800 5600 0    50   Input ~ 0
+VGND
+Wire Wire Line
+	3400 5400 3400 5600
+$Comp
+L power:GND #PWR08
+U 1 1 615D0FFA
+P 3400 5600
+F 0 "#PWR08" H 3400 5350 50  0001 C CNN
+F 1 "GND" H 3405 5427 50  0000 C CNN
+F 2 "" H 3400 5600 50  0001 C CNN
+F 3 "" H 3400 5600 50  0001 C CNN
+	1    3400 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5400 3900 5400
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 615629C1
+P 3500 5200
+F 0 "J5" V 3608 5244 50  0000 L CNN
+F 1 "Conn_01x02_Male" H 3608 5290 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3500 5200 50  0001 C CNN
+F 3 "~" H 3500 5200 50  0001 C CNN
+	1    3500 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 5000 3900 5400
+Wire Wire Line
+	4500 5000 4500 5500
+Wire Wire Line
+	4350 5000 4500 5000
+Wire Wire Line
+	4050 5000 3900 5000
+$Comp
+L Device:R R9
 U 1 1 615376AF
-P 4400 3200
-F 0 "R?" V 4193 3200 50  0000 C CNN
-F 1 "1000" V 4284 3200 50  0000 C CNN
-F 2 "" V 4330 3200 50  0001 C CNN
-F 3 "~" H 4400 3200 50  0001 C CNN
-	1    4400 3200
+P 4200 5000
+F 0 "R9" V 3993 5000 50  0000 C CNN
+F 1 "1.5k" V 4084 5000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4130 5000 50  0001 C CNN
+F 3 "~" H 4200 5000 50  0001 C CNN
+	1    4200 5000
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	2350 6850 2200 6850
+Text GLabel 2350 6850 2    50   Input ~ 0
+SENSE4
+Wire Wire Line
+	1550 6950 1600 6950
+Text GLabel 1550 6950 0    50   Input ~ 0
+VGND
+Wire Wire Line
+	1150 6950 1150 6750
 $Comp
-L Device:R R?
+L power:GND #PWR04
+U 1 1 615CFE84
+P 1150 6950
+F 0 "#PWR04" H 1150 6700 50  0001 C CNN
+F 1 "GND" H 1155 6777 50  0000 C CNN
+F 2 "" H 1150 6950 50  0001 C CNN
+F 3 "" H 1150 6950 50  0001 C CNN
+	1    1150 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 6750 1600 6750
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 615626D6
+P 1250 6550
+F 0 "J3" V 1358 6594 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 1403 6594 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1250 6550 50  0001 C CNN
+F 3 "~" H 1250 6550 50  0001 C CNN
+	1    1250 6550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 6300 4300 6300
+Wire Wire Line
+	4450 6850 4450 6300
+Wire Wire Line
+	3850 6300 3850 6750
+Wire Wire Line
+	4000 6300 3850 6300
+Wire Wire Line
+	2200 6350 2200 6850
+Wire Wire Line
+	2050 6350 2200 6350
+Wire Wire Line
+	1600 6350 1600 6750
+Wire Wire Line
+	1750 6350 1600 6350
+$Comp
+L Device:R R8
 U 1 1 61537BBB
-P 6300 3300
-F 0 "R?" V 6093 3300 50  0000 C CNN
-F 1 "R" V 6184 3300 50  0000 C CNN
-F 2 "" V 6230 3300 50  0001 C CNN
-F 3 "~" H 6300 3300 50  0001 C CNN
-	1    6300 3300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2000 2300 2000 4150
-Wire Wire Line
-	2000 4150 2500 4150
-Connection ~ 2000 4150
-Wire Wire Line
-	2000 4150 2000 4400
-$Comp
-L Device:C C?
-U 1 1 6153E2B9
-P 2800 3000
-F 0 "C?" V 2548 3000 50  0000 C CNN
-F 1 "47pF" V 2639 3000 50  0000 C CNN
-F 2 "" H 2838 2850 50  0001 C CNN
-F 3 "~" H 2800 3000 50  0001 C CNN
-	1    2800 3000
+P 4150 6300
+F 0 "R8" V 3943 6300 50  0000 C CNN
+F 1 "1.5k" V 4034 6300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4080 6300 50  0001 C CNN
+F 3 "~" H 4150 6300 50  0001 C CNN
+	1    4150 6300
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 6153E9AD
-P 4400 2750
-F 0 "C?" V 4148 2750 50  0000 C CNN
-F 1 "47pF" V 4239 2750 50  0000 C CNN
-F 2 "" H 4438 2600 50  0001 C CNN
-F 3 "~" H 4400 2750 50  0001 C CNN
-	1    4400 2750
+L Device:R R3
+U 1 1 61536957
+P 1900 6350
+F 0 "R3" V 1693 6350 50  0000 C CNN
+F 1 "1.5k" V 1784 6350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 6350 50  0001 C CNN
+F 3 "~" H 1900 6350 50  0001 C CNN
+	1    1900 6350
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 6153EEC9
-P 6300 2950
-F 0 "C?" V 6048 2950 50  0000 C CNN
-F 1 "47pF" V 6139 2950 50  0000 C CNN
-F 2 "" H 6338 2800 50  0001 C CNN
-F 3 "~" H 6300 2950 50  0001 C CNN
-	1    6300 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 6153F382
-P 6100 650
-F 0 "C?" V 5848 650 50  0000 C CNN
-F 1 "47pF" V 5939 650 50  0000 C CNN
-F 2 "" H 6138 500 50  0001 C CNN
-F 3 "~" H 6100 650 50  0001 C CNN
-	1    6100 650 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 6153F821
-P 4200 650
-F 0 "C?" V 3948 650 50  0000 C CNN
-F 1 "47pF" V 4039 650 50  0000 C CNN
-F 2 "" H 4238 500 50  0001 C CNN
-F 3 "~" H 4200 650 50  0001 C CNN
-	1    4200 650 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 6153FB62
-P 2900 700
-F 0 "C?" V 2648 700 50  0000 C CNN
-F 1 "47pF" V 2739 700 50  0000 C CNN
-F 2 "" H 2938 550 50  0001 C CNN
-F 3 "~" H 2900 700 50  0001 C CNN
-	1    2900 700 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2600 1550 2600 1050
-Wire Wire Line
-	2600 1050 2750 1050
-Wire Wire Line
-	3050 1050 3200 1050
-Wire Wire Line
-	3200 1050 3200 1650
-Wire Wire Line
-	2600 1050 2600 700 
-Wire Wire Line
-	2600 700  2750 700 
-Connection ~ 2600 1050
-Wire Wire Line
-	3050 700  3200 700 
-Wire Wire Line
-	3200 700  3200 1050
-Connection ~ 3200 1050
-Wire Wire Line
-	4050 650  3950 650 
-Wire Wire Line
-	3950 650  3950 1000
-Wire Wire Line
-	4050 1000 3950 1000
-Connection ~ 3950 1000
-Wire Wire Line
-	3950 1000 3950 1550
-Wire Wire Line
-	4350 650  4550 650 
-Wire Wire Line
-	4550 650  4550 1000
-Wire Wire Line
-	4350 1000 4550 1000
-Connection ~ 4550 1000
-Wire Wire Line
-	4550 1000 4550 1650
-Wire Wire Line
-	5950 650  5900 650 
-Wire Wire Line
-	5900 650  5900 1000
-Wire Wire Line
-	5950 1000 5900 1000
-Connection ~ 5900 1000
-Wire Wire Line
-	5900 1000 5900 1550
-Wire Wire Line
-	6250 650  6500 650 
-Wire Wire Line
-	6500 650  6500 1000
-Wire Wire Line
-	6250 1000 6500 1000
-Connection ~ 6500 1000
-Wire Wire Line
-	6500 1000 6500 1650
-Wire Wire Line
-	6150 2950 6050 2950
-Wire Wire Line
-	6050 2950 6050 3300
-Wire Wire Line
-	6150 3300 6050 3300
-Connection ~ 6050 3300
-Wire Wire Line
-	6050 3300 6050 3650
-Wire Wire Line
-	6450 2950 6650 2950
-Wire Wire Line
-	6650 2950 6650 3300
-Wire Wire Line
-	6450 3300 6650 3300
-Connection ~ 6650 3300
-Wire Wire Line
-	6650 3300 6650 3750
-Wire Wire Line
-	2850 3000 2950 3000
-Wire Wire Line
-	3100 3000 3100 3350
-Wire Wire Line
-	2900 3350 3100 3350
-Connection ~ 3100 3350
-Wire Wire Line
-	3100 3350 3100 3750
-Wire Wire Line
-	2500 3000 2500 3350
-Wire Wire Line
-	2600 3350 2500 3350
-Connection ~ 2500 3350
-Wire Wire Line
-	2500 3350 2500 3650
-Connection ~ 2950 3000
-Wire Wire Line
-	2950 3000 3100 3000
-Wire Wire Line
-	2500 3000 2650 3000
-Wire Wire Line
-	4250 3200 4100 3200
-Connection ~ 4100 3200
-Wire Wire Line
-	4550 3200 4700 3200
-Connection ~ 4700 3200
-Wire Wire Line
-	4700 3200 4700 3700
-Wire Wire Line
-	4100 3200 4100 3600
-Wire Wire Line
-	4250 2750 4100 2750
-Wire Wire Line
-	4550 2750 4700 2750
-Wire Wire Line
-	4700 2750 4700 3200
-Wire Wire Line
-	4100 2750 4100 3200
-$Comp
-L Amplifier_Operational:MCP6002-xMC U?
-U 3 1 61558409
-P 7850 900
-F 0 "U?" H 7808 946 50  0000 L CNN
-F 1 "MCP6002-xMC" H 7808 855 50  0000 L CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 7850 900 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7850 900 50  0001 C CNN
-	3    7850 900 
+L Device:C C2
+U 1 1 618BC46C
+P 2600 1700
+F 0 "C2" H 2715 1746 50  0000 L CNN
+F 1 "10u" H 2715 1655 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 2638 1550 50  0001 C CNN
+F 3 "~" H 2600 1700 50  0001 C CNN
+	1    2600 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6002-xMC U?
-U 3 1 61558880
-P 7850 1750
-F 0 "U?" H 7808 1796 50  0000 L CNN
-F 1 "MCP6002-xMC" H 7808 1705 50  0000 L CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 7850 1750 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7850 1750 50  0001 C CNN
-	3    7850 1750
+L Device:C C1
+U 1 1 618BCEE0
+P 1050 1650
+F 0 "C1" H 1165 1696 50  0000 L CNN
+F 1 "1u" H 1165 1605 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 1088 1500 50  0001 C CNN
+F 3 "~" H 1050 1650 50  0001 C CNN
+	1    1050 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1500 1050 1250
+Connection ~ 1050 1250
+Wire Wire Line
+	2600 1250 2600 1550
+Connection ~ 2600 1250
+Wire Wire Line
+	2600 1850 2600 2200
+Wire Wire Line
+	2600 2200 2200 2200
+Connection ~ 2200 2200
+Wire Wire Line
+	2200 2200 2200 2150
+Wire Wire Line
+	2200 2200 1050 2200
+Wire Wire Line
+	1050 2200 1050 1800
+$Comp
+L Amplifier_Operational:MCP6002-xP U3
+U 2 1 618F01C1
+P 4200 3700
+F 0 "U3" H 4200 3333 50  0000 C CNN
+F 1 "MCP6002-xP" H 4200 3424 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4200 3700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4200 3700 50  0001 C CNN
+	2    4200 3700
+	1    0    0    1   
+$EndComp
+Connection ~ 4500 3700
+$Comp
+L Amplifier_Operational:MCP6002-xP U4
+U 2 1 618F1A09
+P 4200 5500
+F 0 "U4" H 4200 5133 50  0000 C CNN
+F 1 "MCP6002-xP" H 4200 5224 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4200 5500 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4200 5500 50  0001 C CNN
+	2    4200 5500
+	1    0    0    1   
+$EndComp
+Connection ~ 4500 5500
+Connection ~ 3900 5400
+$Comp
+L Amplifier_Operational:MCP6002-xP U3
+U 1 1 618F3386
+P 1900 5450
+F 0 "U3" H 1900 5083 50  0000 C CNN
+F 1 "MCP6002-xP" H 1900 5174 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 1900 5450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1900 5450 50  0001 C CNN
+	1    1900 5450
+	1    0    0    1   
+$EndComp
+Connection ~ 2200 5450
+Connection ~ 1600 5350
+$Comp
+L Amplifier_Operational:MCP6002-xP U4
+U 1 1 618F6546
+P 1900 6850
+F 0 "U4" H 1900 6483 50  0000 C CNN
+F 1 "MCP6002-xP" H 1900 6574 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 1900 6850 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1900 6850 50  0001 C CNN
+	1    1900 6850
+	1    0    0    1   
+$EndComp
+Connection ~ 2200 6850
+Connection ~ 1600 6750
+$Comp
+L Amplifier_Operational:MCP6002-xP U2
+U 2 1 618F7639
+P 4150 6850
+F 0 "U2" H 4150 6483 50  0000 C CNN
+F 1 "MCP6002-xP" H 4150 6574 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4150 6850 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4150 6850 50  0001 C CNN
+	2    4150 6850
+	1    0    0    1   
+$EndComp
+Connection ~ 4450 6850
+Connection ~ 3850 6750
+$Comp
+L Amplifier_Operational:MCP6002-xP U2
+U 3 1 618FD095
+P 4700 1700
+F 0 "U2" H 4658 1746 50  0000 L CNN
+F 1 "MCP6002-xP" H 4658 1655 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4700 1700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4700 1700 50  0001 C CNN
+	3    4700 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6002-xMC U?
-U 3 1 61559468
-P 9100 900
-F 0 "U?" H 9058 946 50  0000 L CNN
-F 1 "MCP6002-xMC" H 9058 855 50  0000 L CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 9100 900 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9100 900 50  0001 C CNN
-	3    9100 900 
+L Amplifier_Operational:MCP6002-xP U3
+U 3 1 618FFFC3
+P 5650 1700
+F 0 "U3" H 5608 1746 50  0000 L CNN
+F 1 "MCP6002-xP" H 5608 1655 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5650 1700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5650 1700 50  0001 C CNN
+	3    5650 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6002-xMC U?
-U 3 1 61559F48
-P 9100 1800
-F 0 "U?" H 9058 1846 50  0000 L CNN
-F 1 "MCP6002-xMC" H 9058 1755 50  0000 L CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 9100 1800 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9100 1800 50  0001 C CNN
-	3    9100 1800
+L Amplifier_Operational:MCP6002-xP U4
+U 3 1 619015A5
+P 6500 1700
+F 0 "U4" H 6458 1746 50  0000 L CNN
+F 1 "MCP6002-xP" H 6458 1655 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 6500 1700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6500 1700 50  0001 C CNN
+	3    6500 1700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Amplifier_Operational:MCP6002-xMC U?
-U 3 1 6155A2F9
-P 10350 850
-F 0 "U?" H 10308 896 50  0000 L CNN
-F 1 "MCP6002-xMC" H 10308 805 50  0000 L CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 10350 850 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 10350 850 50  0001 C CNN
-	3    10350 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:MCP6002-xMC U?
-U 3 1 6155A810
-P 10350 1750
-F 0 "U?" H 10308 1796 50  0000 L CNN
-F 1 "MCP6002-xMC" H 10308 1705 50  0000 L CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 10350 1750 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 10350 1750 50  0001 C CNN
-	3    10350 1750
-	1    0    0    -1  
-$EndComp
+Text GLabel 10100 1850 2    50   Input ~ 0
+SENSE3
+Text GLabel 10100 1450 2    50   Input ~ 0
+SENSE2
 $EndSCHEMATC
