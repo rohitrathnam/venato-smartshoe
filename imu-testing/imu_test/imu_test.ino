@@ -14,10 +14,12 @@
   This example code is in the public domain.
 */
 
+#include <Arduino.h>
+
 #include <Arduino_LSM9DS1.h>
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   while (!Serial);
   Serial.println("Started");
 
