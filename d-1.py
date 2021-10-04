@@ -16,7 +16,7 @@ for port in portsavl:
     ports_list.append(str(port))
     print(str(port))
 
-val = input("Select thr port: ")
+val = input("Select the port: ")
 
 serialInst.baudrate = 9600
 serialInst.port = str(val)
@@ -52,7 +52,8 @@ while True:
     
 
     raw_data = serialInst.readline()
-    valData = np.double(raw_data)
+    ddata = raw_data.decode('utf')
+    valData = np.double(ddata)
 
     
     sampled.append(valData)
