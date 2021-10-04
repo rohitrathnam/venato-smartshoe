@@ -16,10 +16,10 @@ for port in portsavl:
     ports_list.append(str(port))
     print(str(port))
 
-val = input("Select the port: ")
+# val = input("Select the port: ")
 
 serialInst.baudrate = 9600
-serialInst.port = str(val)
+serialInst.port = '/dev/ttyACM0'
 serialInst.open()
 
 
@@ -34,6 +34,7 @@ order = 2       # sin wave can be approx represented as quadratic
 def butter_lowpass_filter(data, cutoff, fs, order):
     normal_cutoff = cutoff / nyq
     # Get the filter coefficients 
+
     b, a = signal.butter(order, normal_cutoff, btype='low', analog=False)
     y = signal.filtfilt(b, a, data)
     return y
@@ -54,11 +55,10 @@ while True:
     raw_data = serialInst.readline()
     ddata = raw_data.decode('utf')
     valData = np.double(ddata)
-
     
     sampled.append(valData)
     sampled.pop(0)
-        
+    print(len(sampled))
         
 
 
@@ -69,7 +69,6 @@ while True:
     #         step_count += 1
     #         print(step_count)
             
-
 
   
 
