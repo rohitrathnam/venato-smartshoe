@@ -9,7 +9,7 @@
 void setup() {
   Serial.begin(9600);
   while (!Serial);
-  Serial.println("Started");
+//  Serial.println("Started");
 
   if (!IMU.begin()) {
     Serial.println("Failed to initialize IMU!");
