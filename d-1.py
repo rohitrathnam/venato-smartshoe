@@ -49,6 +49,7 @@ line, = ax.plot([0,]*data_amount)
 #size of the y axis is set here
 ax.set_ylim(-4,4)
 
+plt.show()
 
 def update(val):
     # update curve
@@ -79,32 +80,4 @@ while True:
 
     # update puts it on the graph
     update(y)
-    plt.show()
-
-    
-
-        
-    
-    
-    
-    
-    
-
-
-
-    
-
-
-        
-    
-    
-
-        
-
-        
-    
-
-
-    
-
 
