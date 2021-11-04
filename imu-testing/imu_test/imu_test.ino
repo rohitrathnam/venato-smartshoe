@@ -17,7 +17,7 @@
 #include <Arduino_LSM9DS1.h>
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   while (!Serial);
   Serial.println("Started");
 
@@ -25,24 +25,14 @@ void setup() {
     Serial.println("Failed to initialize IMU!");
     while (1);
   }
-
-  Serial.print("Accelerometer sample rate = ");
-  Serial.print(IMU.accelerationSampleRate());
-  Serial.println(" Hz");
-  Serial.println();
-  Serial.println("Acceleration in G's");
-  Serial.println("X\tY\tZ");
 }
 
 void loop() {
   float ax, ay, az, gx, gy, gz;
 
-  if (IMU.accelerationAvailable()) {
+  if (IMU.accelerationAvailable()&&IMU.gyroscopeAvailable()) {
     IMU.readAcceleration(ax, ay, az);
-  }
-  if (IMU.gyroscopeAvailable()) {
     IMU.readGyroscope(gx, gy, gz);
-  }
 
   Serial.print(ax);
   Serial.print('\t');
@@ -55,6 +45,5 @@ void loop() {
   Serial.print(gy);
   Serial.print('\t');
   Serial.println(gz);
-  delay(100);
 
 }
