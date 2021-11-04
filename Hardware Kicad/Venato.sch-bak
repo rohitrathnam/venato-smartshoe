@@ -465,7 +465,7 @@ Text GLabel 10100 1550 2    50   Input ~ 0
 SENSE1
 Text GLabel 10100 1650 2    50   Input ~ 0
 SENSE4
-Text GLabel 10100 1850 2    50   Input ~ 0
+Text GLabel 10100 1750 2    50   Input ~ 0
 SENSE5
 Wire Wire Line
 	9950 1450 10100 1450
@@ -738,7 +738,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6500 1700 50 
 	3    6500 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 10100 1750 2    50   Input ~ 0
+Text GLabel 10100 1850 2    50   Input ~ 0
 SENSE3
 Text GLabel 10100 1450 2    50   Input ~ 0
 SENSE2
