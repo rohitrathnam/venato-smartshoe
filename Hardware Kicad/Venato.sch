@@ -84,7 +84,7 @@ L Device:R R7
 U 1 1 615D0A4B
 P 3450 4200
 F 0 "R7" H 3520 4246 50  0000 L CNN
-F 1 "9k" H 3520 4155 50  0000 L CNN
+F 1 "3k" H 3520 4155 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3380 4200 50  0001 C CNN
 F 3 "~" H 3450 4200 50  0001 C CNN
 	1    3450 4200
@@ -461,7 +461,7 @@ F 3 "~" H 5550 4650 50  0001 C CNN
 	1    5550 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 4550 2    50   Input ~ 0
+Text GLabel 5900 4450 2    50   Input ~ 0
 SENSE1
 Text GLabel 5900 4650 2    50   Input ~ 0
 SENSE4
@@ -740,6 +740,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6500 1700 50 
 $EndComp
 Text GLabel 5900 4850 2    50   Input ~ 0
 SENSE3
-Text GLabel 5900 4450 2    50   Input ~ 0
+Text GLabel 5900 4550 2    50   Input ~ 0
 SENSE2
 $EndSCHEMATC
