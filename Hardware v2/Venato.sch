@@ -19,7 +19,7 @@ U 1 1 61530CA8
 P 1900 3850
 F 0 "U2" H 1900 3483 50  0000 C CNN
 F 1 "MCP6002-xP" H 1900 3574 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 1900 3850 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 1900 3850 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1900 3850 50  0001 C CNN
 	1    1900 3850
 	1    0    0    1   
@@ -30,7 +30,7 @@ U 1 1 61535978
 P 1900 3350
 F 0 "R1" V 1693 3350 50  0000 C CNN
 F 1 "1.5k" V 1784 3350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1830 3350 50  0001 C CNN
 F 3 "~" H 1900 3350 50  0001 C CNN
 	1    1900 3350
 	0    1    1    0   
@@ -41,7 +41,7 @@ U 1 1 615366D8
 P 1900 4950
 F 0 "R2" V 1693 4950 50  0000 C CNN
 F 1 "1.5k" V 1784 4950 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 4950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1830 4950 50  0001 C CNN
 F 3 "~" H 1900 4950 50  0001 C CNN
 	1    1900 4950
 	0    1    1    0   
@@ -74,7 +74,7 @@ U 1 1 615D068F
 P 3450 3500
 F 0 "R6" H 3520 3546 50  0000 L CNN
 F 1 "42k" H 3520 3455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3380 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3380 3500 50  0001 C CNN
 F 3 "~" H 3450 3500 50  0001 C CNN
 	1    3450 3500
 	1    0    0    -1  
@@ -84,8 +84,8 @@ L Device:R R7
 U 1 1 615D0A4B
 P 3450 4200
 F 0 "R7" H 3520 4246 50  0000 L CNN
-F 1 "3k" H 3520 4155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3380 4200 50  0001 C CNN
+F 1 "9k" H 3520 4155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3380 4200 50  0001 C CNN
 F 3 "~" H 3450 4200 50  0001 C CNN
 	1    3450 4200
 	1    0    0    -1  
@@ -285,7 +285,7 @@ U 1 1 616AB4D5
 P 4000 1700
 F 0 "C4" H 4115 1746 50  0000 L CNN
 F 1 "1u" H 4115 1655 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 4038 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4038 1550 50  0001 C CNN
 F 3 "~" H 4000 1700 50  0001 C CNN
 	1    4000 1700
 	1    0    0    -1  
@@ -308,7 +308,7 @@ U 1 1 616BC609
 P 3450 1700
 F 0 "C3" H 3565 1746 50  0000 L CNN
 F 1 "0.1u" H 3565 1655 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3488 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3488 1550 50  0001 C CNN
 F 3 "~" H 3450 1700 50  0001 C CNN
 	1    3450 1700
 	1    0    0    -1  
@@ -327,7 +327,7 @@ U 1 1 61745AE8
 P 1650 1250
 F 0 "U1" H 1650 1492 50  0000 C CNN
 F 1 "LM317_TO-220" H 1650 1401 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1650 1500 50  0001 C CIN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 1650 1500 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 1650 1250 50  0001 C CNN
 	1    1650 1250
 	1    0    0    -1  
@@ -338,7 +338,7 @@ U 1 1 61746EC2
 P 2200 1450
 F 0 "R4" H 2270 1496 50  0000 L CNN
 F 1 "270" H 2270 1405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2130 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2130 1450 50  0001 C CNN
 F 3 "~" H 2200 1450 50  0001 C CNN
 	1    2200 1450
 	1    0    0    -1  
@@ -349,7 +349,7 @@ U 1 1 61747723
 P 2200 2000
 F 0 "R5" H 2270 2046 50  0000 L CNN
 F 1 "180" H 2270 1955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2130 2000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2130 2000 50  0001 C CNN
 F 3 "~" H 2200 2000 50  0001 C CNN
 	1    2200 2000
 	1    0    0    -1  
@@ -409,74 +409,6 @@ $EndComp
 Wire Wire Line
 	2600 1250 2200 1250
 Connection ~ 2200 1250
-$Comp
-L Connector:Conn_01x02_Male J6
-U 1 1 617A8BCB
-P 5650 3300
-F 0 "J6" H 5758 3389 50  0000 C CNN
-F 1 "Conn_01x02_Male" V 5803 3344 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 3300 50  0001 C CNN
-F 3 "~" H 5650 3300 50  0001 C CNN
-	1    5650 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR013
-U 1 1 617AB64A
-P 6000 3200
-F 0 "#PWR013" H 6000 3050 50  0001 C CNN
-F 1 "+5V" H 6015 3373 50  0000 C CNN
-F 2 "" H 6000 3200 50  0001 C CNN
-F 3 "" H 6000 3200 50  0001 C CNN
-	1    6000 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5850 3300 6000 3300
-Wire Wire Line
-	6000 3300 6000 3200
-$Comp
-L power:GND #PWR014
-U 1 1 617B6879
-P 6000 3500
-F 0 "#PWR014" H 6000 3250 50  0001 C CNN
-F 1 "GND" H 6005 3327 50  0000 C CNN
-F 2 "" H 6000 3500 50  0001 C CNN
-F 3 "" H 6000 3500 50  0001 C CNN
-	1    6000 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 3500 6000 3400
-Wire Wire Line
-	6000 3400 5850 3400
-$Comp
-L Connector:Conn_01x05_Male J7
-U 1 1 617C1B55
-P 5550 4650
-F 0 "J7" H 5658 4939 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 5658 4940 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5550 4650 50  0001 C CNN
-F 3 "~" H 5550 4650 50  0001 C CNN
-	1    5550 4650
-	1    0    0    -1  
-$EndComp
-Text GLabel 5900 4450 2    50   Input ~ 0
-SENSE1
-Text GLabel 5900 4650 2    50   Input ~ 0
-SENSE4
-Text GLabel 5900 4750 2    50   Input ~ 0
-SENSE5
-Wire Wire Line
-	5750 4450 5900 4450
-Wire Wire Line
-	5750 4550 5900 4550
-Wire Wire Line
-	5900 4650 5750 4650
-Wire Wire Line
-	5750 4750 5900 4750
-Wire Wire Line
-	5900 4850 5750 4850
 Wire Wire Line
 	4650 5500 4500 5500
 Text GLabel 4650 5500 2    50   Input ~ 0
@@ -525,7 +457,7 @@ U 1 1 615376AF
 P 4200 5000
 F 0 "R9" V 3993 5000 50  0000 C CNN
 F 1 "1.5k" V 4084 5000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4130 5000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4130 5000 50  0001 C CNN
 F 3 "~" H 4200 5000 50  0001 C CNN
 	1    4200 5000
 	0    1    1    0   
@@ -586,7 +518,7 @@ U 1 1 61537BBB
 P 4150 6300
 F 0 "R8" V 3943 6300 50  0000 C CNN
 F 1 "1.5k" V 4034 6300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4080 6300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4080 6300 50  0001 C CNN
 F 3 "~" H 4150 6300 50  0001 C CNN
 	1    4150 6300
 	0    1    1    0   
@@ -597,7 +529,7 @@ U 1 1 61536957
 P 1900 6350
 F 0 "R3" V 1693 6350 50  0000 C CNN
 F 1 "1.5k" V 1784 6350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1830 6350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1830 6350 50  0001 C CNN
 F 3 "~" H 1900 6350 50  0001 C CNN
 	1    1900 6350
 	0    1    1    0   
@@ -608,7 +540,7 @@ U 1 1 618BC46C
 P 2600 1700
 F 0 "C2" H 2715 1746 50  0000 L CNN
 F 1 "10u" H 2715 1655 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 2638 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2638 1550 50  0001 C CNN
 F 3 "~" H 2600 1700 50  0001 C CNN
 	1    2600 1700
 	1    0    0    -1  
@@ -619,7 +551,7 @@ U 1 1 618BCEE0
 P 1050 1650
 F 0 "C1" H 1165 1696 50  0000 L CNN
 F 1 "1u" H 1165 1605 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" H 1088 1500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1088 1500 50  0001 C CNN
 F 3 "~" H 1050 1650 50  0001 C CNN
 	1    1050 1650
 	1    0    0    -1  
@@ -647,7 +579,7 @@ U 2 1 618F01C1
 P 4200 3700
 F 0 "U3" H 4200 3333 50  0000 C CNN
 F 1 "MCP6002-xP" H 4200 3424 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 4200 3700 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 4200 3700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4200 3700 50  0001 C CNN
 	2    4200 3700
 	1    0    0    1   
@@ -659,7 +591,7 @@ U 2 1 618F1A09
 P 4200 5500
 F 0 "U4" H 4200 5133 50  0000 C CNN
 F 1 "MCP6002-xP" H 4200 5224 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 4200 5500 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 4200 5500 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4200 5500 50  0001 C CNN
 	2    4200 5500
 	1    0    0    1   
@@ -672,7 +604,7 @@ U 1 1 618F3386
 P 1900 5450
 F 0 "U3" H 1900 5083 50  0000 C CNN
 F 1 "MCP6002-xP" H 1900 5174 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 1900 5450 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 1900 5450 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1900 5450 50  0001 C CNN
 	1    1900 5450
 	1    0    0    1   
@@ -685,7 +617,7 @@ U 1 1 618F6546
 P 1900 6850
 F 0 "U4" H 1900 6483 50  0000 C CNN
 F 1 "MCP6002-xP" H 1900 6574 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 1900 6850 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 1900 6850 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1900 6850 50  0001 C CNN
 	1    1900 6850
 	1    0    0    1   
@@ -698,7 +630,7 @@ U 2 1 618F7639
 P 4150 6850
 F 0 "U2" H 4150 6483 50  0000 C CNN
 F 1 "MCP6002-xP" H 4150 6574 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 4150 6850 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 4150 6850 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4150 6850 50  0001 C CNN
 	2    4150 6850
 	1    0    0    1   
@@ -711,7 +643,7 @@ U 3 1 618FD095
 P 4700 1700
 F 0 "U2" H 4658 1746 50  0000 L CNN
 F 1 "MCP6002-xP" H 4658 1655 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 4700 1700 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 4700 1700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4700 1700 50  0001 C CNN
 	3    4700 1700
 	1    0    0    -1  
@@ -722,7 +654,7 @@ U 3 1 618FFFC3
 P 5650 1700
 F 0 "U3" H 5608 1746 50  0000 L CNN
 F 1 "MCP6002-xP" H 5608 1655 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 5650 1700 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 5650 1700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 5650 1700 50  0001 C CNN
 	3    5650 1700
 	1    0    0    -1  
@@ -733,13 +665,149 @@ U 3 1 619015A5
 P 6500 1700
 F 0 "U4" H 6458 1746 50  0000 L CNN
 F 1 "MCP6002-xP" H 6458 1655 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 6500 1700 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 6500 1700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6500 1700 50  0001 C CNN
 	3    6500 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 4850 2    50   Input ~ 0
-SENSE3
-Text GLabel 5900 4550 2    50   Input ~ 0
+$Comp
+L Connector:Conn_01x15_Female J6
+U 1 1 6190B00D
+P 6450 4500
+F 0 "J6" H 6350 5450 50  0000 L CNN
+F 1 "Conn_01x15_Female" H 6000 5350 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 6450 4500 50  0001 C CNN
+F 3 "~" H 6450 4500 50  0001 C CNN
+	1    6450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x15_Female J7
+U 1 1 6192EA22
+P 7050 4500
+F 0 "J7" H 6942 3667 50  0000 C CNN
+F 1 "Conn_01x15_Female" H 6942 3666 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 7050 4500 50  0001 C CNN
+F 3 "~" H 7050 4500 50  0001 C CNN
+	1    7050 4500
+	-1   0    0    1   
+$EndComp
+Text GLabel 6100 4700 0    50   Input ~ 0
+SENSE1
+Text GLabel 6100 4300 0    50   Input ~ 0
 SENSE2
+Text GLabel 6100 4200 0    50   Input ~ 0
+SENSE3
+Text GLabel 6100 4100 0    50   Input ~ 0
+SENSE4
+Text GLabel 6100 4400 0    50   Input ~ 0
+SENSE5
+Wire Wire Line
+	6100 4700 6250 4700
+Wire Wire Line
+	6250 4400 6100 4400
+Wire Wire Line
+	6250 4300 6100 4300
+Wire Wire Line
+	6250 4200 6100 4200
+Wire Wire Line
+	6250 4100 6100 4100
+$Comp
+L power:+5V #PWR013
+U 1 1 6195C7EE
+P 6100 4900
+F 0 "#PWR013" H 6100 4750 50  0001 C CNN
+F 1 "+5V" V 6115 5073 50  0000 C CNN
+F 2 "" H 6100 4900 50  0001 C CNN
+F 3 "" H 6100 4900 50  0001 C CNN
+	1    6100 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 4900 6250 4900
+$Comp
+L power:GND #PWR014
+U 1 1 61963ADE
+P 6100 5100
+F 0 "#PWR014" H 6100 4850 50  0001 C CNN
+F 1 "GND" V 6105 4927 50  0000 C CNN
+F 2 "" H 6100 5100 50  0001 C CNN
+F 3 "" H 6100 5100 50  0001 C CNN
+	1    6100 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 5100 6250 5100
+NoConn ~ 6250 3800
+NoConn ~ 6250 3900
+NoConn ~ 6250 4000
+NoConn ~ 6250 4500
+NoConn ~ 6250 4600
+NoConn ~ 6250 4800
+NoConn ~ 6250 5000
+$Comp
+L power:GND #PWR015
+U 1 1 6199F656
+P 7450 4900
+F 0 "#PWR015" H 7450 4650 50  0001 C CNN
+F 1 "GND" V 7455 4727 50  0000 C CNN
+F 2 "" H 7450 4900 50  0001 C CNN
+F 3 "" H 7450 4900 50  0001 C CNN
+	1    7450 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 4900 7250 4900
+NoConn ~ 7250 5000
+NoConn ~ 7250 5100
+NoConn ~ 7250 5200
+NoConn ~ 7250 4600
+NoConn ~ 7250 4500
+NoConn ~ 7250 3800
+NoConn ~ 7250 3900
+NoConn ~ 7250 4000
+NoConn ~ 7250 4100
+NoConn ~ 7250 4200
+NoConn ~ 7250 4300
+NoConn ~ 7250 4400
+Text GLabel 7450 4800 2    50   Input ~ 0
+SCL
+Text GLabel 7450 4700 2    50   Input ~ 0
+SDA
+Wire Wire Line
+	7450 4800 7250 4800
+Wire Wire Line
+	7250 4700 7450 4700
+Text GLabel 6100 5200 0    50   Input ~ 0
+VIN
+Wire Wire Line
+	6100 5200 6250 5200
+$Comp
+L Connector:Conn_01x02_Male J8
+U 1 1 61E5B5DD
+P 6450 2850
+F 0 "J8" H 6558 3031 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6558 2940 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical" H 6450 2850 50  0001 C CNN
+F 3 "~" H 6450 2850 50  0001 C CNN
+	1    6450 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 2850 2    50   Input ~ 0
+VIN
+$Comp
+L power:GND #PWR0101
+U 1 1 61E67FF5
+P 6750 2950
+F 0 "#PWR0101" H 6750 2700 50  0001 C CNN
+F 1 "GND" H 6755 2777 50  0000 C CNN
+F 2 "" H 6750 2950 50  0001 C CNN
+F 3 "" H 6750 2950 50  0001 C CNN
+	1    6750 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2950 6650 2950
+Wire Wire Line
+	6750 2850 6650 2850
 $EndSCHEMATC

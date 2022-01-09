@@ -1,0 +1,11 @@
+Reference, Quantity, Value, Footprint
+C2 ,2,10u,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+C3 ,2,0.1u,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+C1 C4 ,5,1u,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+R1 R2 R3 R8 R9 ,10,1.5k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+R4 ,2,270R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+R5 ,2,180R,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+R6 ,2,42k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+R7 ,2,9k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder
+U2 U3 U4 ,4,MCP6002-xP,Package_SO:MSOP-8_3x3mm_P0.65mm
+,6,FSR04B,
