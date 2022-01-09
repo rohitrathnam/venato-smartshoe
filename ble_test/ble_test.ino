@@ -8,7 +8,7 @@
 LSM9DS1Class IMU1(Wire);
 
 BLEService smartshoe("7DE3F257-A014-42D8-8B8D-E4A75DB3B930");
-BLECharacteristic dataCharacteristic("1101", BLERead | BLENotify, PACKET_SIZE);
+BLECharacteristic dataCharacteristic("1101", BLERead | BLENotify, 252);
 
 unsigned char buff[PACKET_SIZE] = {0};
 
@@ -83,23 +83,16 @@ void loop() {
       sensor_data[123] = (int16_t)(analogRead(A3) / 1.024 * 3.3);
       sensor_data[124] = (int16_t)(analogRead(A6) / 1.024 * 3.3);
       sensor_data[125] = packet_id;
-      
+
       for (int i = 0; i < 60; i++)
       {
         sensor_data[i] = (int16_t) (raw_data_imu0[i] * 100.0);
         sensor_data[i + 60] = (int16_t) (raw_data_imu1[i] * 100.0);
       }
 
-      if(packet_id%2)
-      {
-        memcpy(&buff[252], &sensor_data[0], 252);
-        dataCharacteristic.writeValue(&buff, PACKET_SIZE);
-      }
-      else
-      {
-        memcpy(&buff[0], &sensor_data[0], 252);
-      }
-      
+      memcpy(&buff[0], &sensor_data[0], 252);
+      dataCharacteristic.writeValue(&buff, 252);
+
       packet_id++;
     }
   }

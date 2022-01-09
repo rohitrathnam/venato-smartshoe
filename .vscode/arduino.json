@@ -1,6 +1,0 @@
-{
-    "board": "arduino:mbed_nano:nano33ble",
-    "sketch": "ble-link/ble-link.ino",
-    "output": "ble-link/.build/",
-    "port": "/dev/ttyACM0"
-}
